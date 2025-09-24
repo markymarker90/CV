@@ -244,3 +244,101 @@ body{
         padding-top: 6rem;
     }
 }
+.hire-me-btn {
+  background: linear-gradient(120deg, #7f70f5, #0ea0ff); /* gradient to match navbar */
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 40px;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.hire-me-btn:hover {
+  background: linear-gradient(120deg, #5d50d4, #007acc);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  text-decoration: none;
+  color: #fff;
+}
+
+.hire-me-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+/* ===== Dark Mode Overrides ===== */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.page-navbar.navbar {
+    background: #1e1e1e !important;
+}
+
+.page-navbar .navbar-nav .nav-item a {
+    color: #e0e0e0 !important;
+}
+
+.page-navbar .navbar-nav .nav-item a:hover {
+    color: #00c6ff !important;
+}
+
+.cv-block {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.cv-block p,
+.text-muted,
+.cv-block span {
+    color: #bbbbbb !important;
+}
+
+.cv-block .info-card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.cv-block.info .organization {
+    background-color: #0072ff; /* still visible on dark mode */
+}
+
+.cv-block.info .education.group .organization {
+    background-color: #20c997;
+}
+
+.progress {
+    background-color: #2a2a2a;
+}
+
+.progress-bar {
+    background-color: #00c6ff;
+}
+
+.page-footer {
+    background-color: #1e1e1e;
+    color: #aaa;
+}
+
+.page-footer a {
+    color: #00c6ff !important;
+}
+
+.page-footer .social-icons a {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.page-footer .social-icons a:hover {
+    background-color: #00c6ff;
+    color: #fff;
+}
+
+
